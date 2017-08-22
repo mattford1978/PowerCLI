@@ -1,0 +1,1 @@
+Get-VM | Select Name, @{N=”Tools status”;E={$_.Guest.State}}, @{N=”Tools version”;E={$_.Extensiondata.Config.Tools.ToolsVersion}}
