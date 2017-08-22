@@ -1,3 +1,3 @@
 # PowerCLI
 VMware
-Please take a read
+This folder will hold all my VMware PowerCli commands and Scripts
