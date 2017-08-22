@@ -1,0 +1,1 @@
+Get-Datastore | Get-View | Select-Object Name,@{N="VMFS version";E={$_.Info.Vmfs.Version}},@{N="BlocksizeMB";E={$_.Info.Vmfs.BlockSizeMB}} |export-Csv  driveletter:\\File Directory and name of file.csv -NoTypeInformation
