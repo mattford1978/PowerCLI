@@ -1,0 +1,1 @@
+Get-View -ViewType HostSystem | Select Name, @{N=”LockedMode”;E={$_.Config.AdminDisabled}} | Export-Csv C:\XXXXXXX.csv
