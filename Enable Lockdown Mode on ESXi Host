@@ -1,0 +1,1 @@
+(get-vmhost HOST name FQDN | get-view).EnterLockdownMode() | get-vmhost | select Name,@{N="LockDown";E={$_.Extensiondata.Config.adminDisabled}} | ft -auto Name LockDown
