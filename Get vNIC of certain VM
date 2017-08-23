@@ -1,0 +1,1 @@
+get-networkadapter -VM (vm needs to be at the end)
