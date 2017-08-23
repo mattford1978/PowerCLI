@@ -1,0 +1,1 @@
+Get-VM | Get-View | Select-Object @{N=”VM Name”;E={$_.Name}},@{Name=”VMware Tools”;E={$_.Guest.ToolsStatus}} | Export-CSV c:\XXXX.csv
