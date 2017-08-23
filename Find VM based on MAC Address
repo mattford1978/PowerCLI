@@ -1,0 +1,1 @@
+get-vm | Get-NetworkAdapter | where {$_.macaddress -eq "00:50:56:8F:6E:FD"} | select parent,macaddress
