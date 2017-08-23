@@ -1,0 +1,1 @@
+Get-vm | get-networkadapter | where-object {$_.type -like "*e1000*" }
