@@ -1,0 +1,1 @@
+> get-vm -name 'VM Name Here' | Get-HardDisk | fl
